@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    background-color: rgb(224, 181, 235);
+}
+header {
+    background-color: beige;
+}
+footer {
+    background-color: rgb(200, 244, 247);
+    height:40px;
+}
+
+.ma {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+h1 {
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border:3px solid red;
+    
+}

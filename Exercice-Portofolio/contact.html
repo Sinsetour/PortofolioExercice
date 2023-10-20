@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <meta name="description" content="pageaccueil-portofolio" />
+    <meta name="author" content="Mathieu Lebaron" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="portofolio.html">Portofolio</a>
+      </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <p>Pour me contacter, je vous laisse envoyer vos coordonnées, et un message expliquant 
+            le pourquoi, merci infiniment :<p>
+        <div class="formulairecontact">
+            <form action="traitement.php" method="post">
+                <p>
+                    <label for="name">Nom *</label>
+                    <input type="text" id="name" name="nom" request></p>
+                <p>
+                    <label for="prenom">Prénom *</label>
+                    <input type="text" id="prenom" name="prenom" request></p>
+                <p>
+                    <label for="email">E-mail *</label>
+                    <input type="text" id="email" name="email" request></p>
+                <p>Ecrivez votre message :</p>
+                <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                <p><input type="submit" value="envoyer"></p>
+            </form>
+        </div>
+            <p>Si vous voulez m'envoyer plus de données histoire de concurencer un gros groupe Américain, 
+            vous pouvez répondre à un petit questionnaire pour faire grossir ma base de données :
+            </p>
+            <p>
+                <form action="php.traitement">
+                <label for="niveau">Quel est âge avez vous ?</label>
+                <select name="age" id="age">
+                    <option value="moins">Moins de 18 ans</option>
+                    <option value="entre1835">Entre 18 et 35 ans</option>
+                    <option value="entre3660">Entre 36 et 60 ans</option>
+                    <option value="plus">Moins de 20 ans</option>
+                </select>
+            </p>
+             <p><label for="niveau">Quel est votre niveau en informatique</label>
+                <select name="niveau" id="niveau">
+                    <option value="debutant">débutant</option>
+                    <option value="intermediaire">intermédiare</option>
+                    <option value="entre3660">Entre 36 et 60 ans</option>
+                    <option value="plus">Moins de 20 ans</option>
+                </select>
+            </p>
+            <p><input type="submit" value="envoyer"></p>    
+            </form>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <a href="accueil.html">Accueil</a>
+        <a href="portofolio.html">Portofolio</a>
+        <iframe src="https://www.google.com/maps/place/4+L'H%C3%B4tel+Jourdan,+50680+La+Luzerne/@49.1393697,-1.0448035,17z/data=!3m1!4b1!4m6!3m5!1s0x480bbd8b65979191:0xa8f3d5d56740b51!8m2!3d49.1393697!4d-1.0422339!16s%2Fg%2F11c2hj56hy?entry=ttu"
+        id="coordonnees" title="coordonnees">
+
+        </iframe>
+    </footer>
+  </body>
+</html>
